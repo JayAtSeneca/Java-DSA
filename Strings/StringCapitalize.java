@@ -9,14 +9,14 @@ public class StringCapitalize {
                 i++;
                 sb.append(Character.toUpperCase(str.charAt(i)));
             } else {
-                sb.append(str.charAt(i));
+                sb.append(Character.toLowerCase(str.charAt(i)));
             }
         }
         return sb.toString();
     }
 
     public static void main(String[] args) {
-        String str = "hi, i am jay";
+        String str = "hi, i am JAY";
         System.out.println(toCapitalize(str));
     }
 }
