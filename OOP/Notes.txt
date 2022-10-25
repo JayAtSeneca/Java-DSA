@@ -1,0 +1,2 @@
+1. Cannot make private and protected class in java(because it will be inaccessible)(this is not applicable on nested class)
+2. 
