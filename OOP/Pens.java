@@ -1,9 +1,13 @@
 public class Pens{
-
+    public static void main(String[] args) {
+        Pen p = new Pen();
+        Pen.tip = 30;
+        System.out.print(Pen.tip);
+    }
 }
 class Pen{
     String color;
-    int tip;
+    static int tip;
     void setColor(String newColor){
         this.color = newColor;
     }
