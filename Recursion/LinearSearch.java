@@ -10,6 +10,6 @@ public class LinearSearch {
     }
     public static void main(String[] args) {
         int arr[] = {1,2,3,4,5};
-        System.out.print(linearSearch(arr,3,0));
+        System.out.print(linearSearch(arr,13,0));
     }
 }
